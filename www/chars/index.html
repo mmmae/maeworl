@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>chars &#8211; maeworl</title>
+        <meta name="description" content="Learn the lore, and how to draw various characters, such as Müll the Cat, and others!">
+        <meta name="rating" content="adult">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta property="og:title" content="maeworl">
+        <meta property="og:url" content="https://maeworl.xyz">
+        <meta property="og:image" content="/img/ogimage.png">
+        <meta property="og:description" content="here be horny furryquatsch... adults only!">
+
+        <link rel="icon" href="/favicon.ico" sizes="any">
+
+        <link rel="stylesheet" href="/css/style.css">
+
+        <style>
+            .char {
+                width: auto;
+                height: 20vh;
+                background-size: 55%;
+                background-repeat: no-repeat;
+                transition: 0.1s ease-in-out;
+                border-radius: 8px;
+                opacity: 0.8;
+                border: 6px dashed #000000;
+            }
+            .char:hover {
+                opacity: 1;
+                border: 6px dashed #FFFFFF;
+            }
+
+            .char-left { background-position: 20% 45%; }
+            .char-left:hover { background-position: 20% 50%; }
+            
+            .char-right { background-position: 80% 45%; }
+            .char-right:hover { background-position: 80% 50%; }
+
+            #muell { background-image: url("/img/chars/muell-head-a.png"); }
+            #muell:hover { background-image: url("/img/chars/muell-head-b.png"); }
+
+            #avril { background-image: url("/img/chars/avril-head-a.png"); }
+            #avril:hover { background-image: url("/img/chars/avril-head-b.png"); }
+
+            #dairy { background-image: url("/img/chars/dairy-head-a.png"); }
+            #dairy:hover { background-image: url("/img/chars/dairy-head-b.png"); }
+        </style>
+    </head>
+    <body>
+        <div id="content">
+            <div id="header">
+                <span class="title-main">maeworl</span>
+                <div id="navbar">
+                    <a class="nav-item" href="/">home</a>
+                    <a class="nav-item" href="/archive">archive</a>
+                    <a class="nav-item" href="/about">about</a>
+                    <a class="nav-item" href="/chars">chars</a>
+                </div>
+            </div>
+            <div id="main">
+                <a href="/chars/muell"><div class="char char-left" id="muell"></div></a>
+                <a href="/chars/avril"><div class="char char-right" id="avril"></div></a>
+                <a href="/chars/dairy"><div class="char char-left" id="dairy"></div></a>
+            </div>
+            <div id="footer">
+                <hr>
+                <p>here be horny furryquatsch...&ensp;<a href="https://creativecommons.org/publicdomain/zero/1.0/">no rights reserved.</a><br>
+                    ※ Miaowwww, subscribe to the <a href="/feed.xml">RSS feed!</a></p>
+                <p style="color: #AAAAAA; max-width: 640px; margin-left:auto; margin-right:auto;">
+                    This website contains sexually explicit content intended for <b>adults only.</b>
+                    If you are under 18 years of age, or are otherwise not allowed to access
+                    such material in your jurisdiction, please <b><a href="https://youtu.be/swbMr9HVWB4">discontinue your access</a></b> now.<br><br>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

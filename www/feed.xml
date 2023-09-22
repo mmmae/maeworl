@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>maeworl (18+)</title>
+    <link href="https://maeworl.xyz" rel="alternate"/>
+    <id>maeworl.xyz</id>
+    <updated>2023-08-11T00:00:00Z</updated>
+    <entry>
+        <title>deutscheslorpe</title>
+        <link href="https://maeworl.xyz/archive/view" rel="alternate"/>
+        <updated>2023-08-11T00:00:00Z</updated>
+        <id>20230811-deutscheslorpe</id>
+        <summary type="html">
+            &lt;img src="https://maeworl.xyz/img/archive/20230811-deutscheslorpe.png" title="she can really work her magic with that split tongue, even while you're playing a card game at the bar"/&gt;
+        </summary>
+    </entry>
+    <entry>
+        <title>blehgh</title>
+        <link href="https://maeworl.xyz/archive/view" rel="alternate"/>
+        <updated>2023-07-05T00:00:00Z</updated>
+        <id>20230705-blehgh</id>
+        <summary type="html">
+            &lt;img src="https://maeworl.xyz/img/archive/20230705-blehgh.png" title="getting into it again yes, forcing myself to get used to CSP, it still doesn't beat procreate for me but yeah, look I have done something for once"/&gt;
+        </summary>
+    </entry>
+    <entry>
+        <title>waow</title>
+        <link href="https://maeworl.xyz/archive/view" rel="alternate"/>
+        <updated>2023-06-15T00:00:00Z</updated>
+        <id>20230615-waow</id>
+        <summary type="html">
+            &lt;img src="https://maeworl.xyz/img/archive/20230615-waow.png" title=" some more poses I don't normally try"/&gt;
+        </summary>
+    </entry>
+    <entry>
+        <title>tryinggg</title>
+        <link href="https://maeworl.xyz/archive/view" rel="alternate"/>
+        <updated>2023-06-14T00:00:00Z</updated>
+        <id>20230614-tryinggg</id>
+        <summary type="html">
+            &lt;img src="https://maeworl.xyz/img/archive/20230614-tryinggg.png" title="..."/&gt;
+        </summary>
+    </entry>
+</feed>

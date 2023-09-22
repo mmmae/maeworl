@@ -10,5 +10,5 @@ for f in files[:-1]:
     print('..', f)
     
     with Image.open(f) as im:
-        im.thumbnail((420, 420))
+        im.thumbnail((480, 480))
         im.save('thumbs/' + f)

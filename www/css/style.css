@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap'); /* Chewy font */
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');  /* Neucha font */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); /* Indie Flower font */
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+::selection { background: #444444; }
+
+body {
+    margin: 0;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Neucha";
+    animation: fadein 250ms;
+}
+
+#content {
+    max-width: 960px;
+    min-height: 720px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content a {
+    text-decoration: none;
+    color: #aaa;
+    transition: 0.1s ease-in-out;
+}
+#content a:hover { color: #fff; }
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+#header .title-main {
+    font-family: "Chewy";
+    font-size: 2.8em;
+    margin-left: 32px;
+}
+
+#navbar {
+    flex-grow: 1;
+    margin-right: 32px;
+    text-align: right;
+    text-shadow: none;
+    font-family: "Indie Flower";
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+#navbar .nav-item {
+    text-decoration: none;
+    padding: 2px 12px 2px 12px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    background-color: transparent;
+    transition: 0.1s ease-in-out;
+}
+#navbar .nav-item:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+#main {}
+
+#main .desc {
+    margin-top: -15px;
+    font-size: 1.1em;
+    color: #AAAAAA;
+}
+
+#footer {
+    user-select: none;
+}
+#footer p {
+    text-align: center;
+}
+
+.trans {
+    color: #AAAAAA;
+    text-decoration: underline dotted;
+}
+
+.spoiler {
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    transition: 0.1s ease-in-out;
+}
+.spoiler:hover {
+    background-color: transparent;
+}
